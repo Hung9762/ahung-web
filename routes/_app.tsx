@@ -9,8 +9,10 @@ export default function App({ Component }: PageProps) {
         <link rel="stylesheet" href="/styles.css" />
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
       </head>
-      <body class="bg-stone-200">
-        <Component />
+      <body class="bg-stone-200 min-h-screen flex flex-col justify-between">
+        <main>
+          <Component />
+        </main>
         <footer class="bg-stone-300 rounded-lg shadow m-4">
           <div class="w-full max-w-screen-xl mx-auto  md:py-2">
             <span class="block text-sm text-gray-500 sm:text-center dark:text-black">
