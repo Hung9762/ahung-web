@@ -16,7 +16,7 @@ export default function App({ Component }: PageProps) {
         <footer class="bg-stone-300 rounded-lg shadow m-4">
           <div class="w-full max-w-screen-xl mx-auto  md:py-2">
             <span class="block text-sm text-gray-500 sm:text-center dark:text-black">
-              © 2024{" "}
+              © 2025{" "}
               <a href="https://ahung.me" class="hover:underline">
                 Alexander Hung
               </a>. All Rights Reserved.
